@@ -2,12 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My page</title>
-    <h1>My First Heading</h1>
+    <title>My page about nothing :></title>
+    <h1>My page about nothing</h1>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
 <!-- 2.At least one header and several paragraphs of text utilizing various formatting tags -->
-<p>My first paragraph.</p>
+<h2>Paragraphs:</h2>
+<p>Just paragraph.</p>
 <p>This is <b>bold text</b>.</p>
 <p>This is <strong>strongly important text</strong>.</p>
 <p>This is <i>italic text</i>.</p>
@@ -19,44 +26,75 @@
 <p>This is <del>deleted text</del>.</p>
 <p>This is <ins>inserted text</ins>.</p>
 <!-- 3.A numbered list with an embedded unordered list -->
+<h2>List:</h2>
 <ol>
-    <li>Choose which type of game you want to play</li>
-    <li>Press the spacebar to start the game</li>
-    <li>Controls for single player mode:
+    <li>Choose which car you want to drive</li>
+    <li>Get keys</li>
+    <li>Start for manual gearbox:
         <ul>
-            <li>W and S</li>
-            <li>&uarr; and &darr;</li>
-            <li>A and Z</li>
-            <li>' (apostrophe) and / (forward slash)</li>
+            <li>Push brake</li>
+            <li>Push clutch</li>
+            <li>Put key to ignition</li>
+            <li>Rotate key in ignition</li>
         </ul>
     </li>
-    <li>Controls for double player mode:
+    <li>Start for automatic gearbox:
         <ul>
-            <li>The right player uses A and Z</li>
-            <li>The left player uses ' and /</li>
+            <li>Push brake</li>
+            <li>Click stop/start button</li>
         </ul>
     </li>
 </ol>
 <!-- 4x5 table containing random data, with row of header cells -->
+<h2>Tables:</h2>
 <table style="width:100%">
     <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Age</th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Engine capacity</th>
+        <th>Power</th>
     </tr>
-    <tr>
-        <td>Jill</td>
-        <td>Smith</td>
-        <td>50</td>
+    <tr align="center">
+        <td>BMW</td>
+        <td>760Li</td>
+        <td>2019</td>
+        <td>6.6L</td>
+        <td>610HP</td>
     </tr>
-    <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94</td>
+    <tr align="center">
+        <td>BMW</td>
+        <td>420D</td>
+        <td>2015</td>
+        <td>2.0L</td>
+        <td>190HP</td>
+    </tr>
+    <tr align="center">
+        <td>BMW</td>
+        <td>Z4</td>
+        <td>2005</td>
+        <td>2.2L</td>
+        <td>170HP</td>
+    </tr>
+    <tr align="center">
+        <td>Kia</td>
+        <td>Venga</td>
+        <td>2010</td>
+        <td>1.4L</td>
+        <td>86HP</td>
     </tr>
 </table>
 <!-- 5.2x2 table, with upper left cell containing an image,
  upper right -text, bottom row should contain a single cell with 2 column width,
   also containing text -->
+<table style="width:100%">
+<tr>
+    <td><img src="Car.jpg" alt="" border=3 height=200 width=300></td>
+    <td>The BMW 7 Series is a full-size luxury sedan produced by the German automaker BMW since 1977.</td>
+</tr>
+    <tr align="center">
+        <td colspan="2">The 7 Series is BMW's flagship car and is only available in a sedan bodystyle (including long wheelbase and limousine models). It traditionally introduces technologies and exterior design themes before they trickle down to other models in BMW's lineup.</td>
+    </tr>
+</table>
 </body>
 </html>
